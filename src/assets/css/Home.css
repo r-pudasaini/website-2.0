@@ -1,0 +1,15 @@
+.home-about-information {
+  margin-left : 30%;
+  margin-right : 30%;
+}
+
+.home-link-row {
+  display : flex;
+  flex-direction : row;
+}
+
+@media (max-width : 600px) {
+  .home-link-row {
+    flex-direction: column;
+  }
+}
