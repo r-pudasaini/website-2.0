@@ -13,7 +13,7 @@ import {
 function App() {
   return (
     <div>
-      <Router >
+      <Router>
         <NavBar/>
 
         <Routes>
