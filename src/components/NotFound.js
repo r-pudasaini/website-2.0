@@ -8,7 +8,7 @@ function NotFound() {
   
   useEffect(() => {
     setPage('not found')
-  }, [])
+  }, [setPage])
 
   return (
     <div className="margin-top center-text"> 

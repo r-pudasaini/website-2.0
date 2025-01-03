@@ -1,4 +1,4 @@
-import { useContext, useEffect } from 'react'
+import { useContext } from 'react'
 import '../assets/css/global.css'
 import '../assets/css/NavBar.css'
 import {Link} from "react-router-dom"

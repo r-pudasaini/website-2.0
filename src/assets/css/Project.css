@@ -1,0 +1,15 @@
+
+.project-link-container {
+  width : 40vw;
+  text-align: center;
+  margin-left : auto;
+  margin-right : auto;
+}
+
+.project-link-element {
+  margin-bottom : 2rem;
+}
+
+.project-link-element > a {
+  font-size: large;
+}

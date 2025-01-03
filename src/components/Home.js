@@ -13,7 +13,7 @@ function Home() {
   
   useEffect(() => {
     setPage('/')
-  }, [])
+  }, [setPage])
 
   return (
     <div className="margin-top flex-col"> 
@@ -31,17 +31,17 @@ function Home() {
       <div className="center-contents-horizontal center-contents-vertical home-link-row">
 
         <figure className="center-text">
-              <img src={LinkedIn} width="48" height="48" />
+              <img src={LinkedIn} width="48" height="48" alt="LinkedIn"/>
               <figcaption><a href="https://www.linkedin.com/in/riyos-p-607157253/" target="_blank" rel="noopener noreferrer">LinkedIn</a></figcaption>
         </figure>
 
         <figure className="center-text">
-              <img src={GitHub} width="48" height="48" />
+              <img src={GitHub} width="48" height="48" alt="GitHub"/>
               <figcaption><a href="https://github.com/r-pudasaini" target="_blank" rel="noopener noreferrer">GitHub</a></figcaption>
         </figure>
 
         <figure className="center-text">
-              <img src={Email} width="48" height="48" />
+              <img src={Email} width="48" height="48" alt="Email"/>
               <figcaption><a href="mailto:riyos.kp@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></figcaption>
         </figure>
 
