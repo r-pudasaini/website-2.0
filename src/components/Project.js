@@ -20,7 +20,7 @@ function Project() {
 
       <div className="flex-col center-contents-horizontal project-link-container">
         <div className='project-link-element'> 
-          <a href="http://webdev.cs.vt.edu:8080/RiyosBookstoreReactTransact/" target="_blank" rel="noopener noreferrer">Vivil Books</a> 
+          <a href="http://vivilbooks-env.eba-ppfgpmpz.us-east-1.elasticbeanstalk.com/" target="_blank" rel="noopener noreferrer">Vivil Books</a> 
           <div>A fictitious, model bookstore I made. The front-end was created using React, and the Backend using Java/Tomcat.</div> 
         </div>
         <div className='project-link-element'> 
